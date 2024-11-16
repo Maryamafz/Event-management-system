@@ -1,0 +1,551 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+/* .logo{
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+  
+} */
+/* .icon-box{
+   
+} */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdfafae8;
+    color: rgb(12, 12, 12);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    height: fit-content;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 2%;
+    margin-top: -1%;
+    color: rgba(137, 43, 226, 0.89);
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.search-bar{
+    padding-top: 5%;
+    margin-top: -5%;
+    margin-left: 120px;
+}
+.line{
+    font-size: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding-top: 5%;
+    margin-top: -4%;
+    padding-left: 100px;
+    margin-left: 50px;
+    
+    
+
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    padding: 5px 10px;
+    
+}
+
+.nav-links a:hover {
+    background-color: #f1eeee;
+    border-radius: 5px;
+}
+
+.search-bar input {
+    padding: 2px;
+    border-color: blueviolet;
+    border-radius: 5px;
+}
+.event-type input{
+    padding: 2px;
+    border-color: blueviolet;
+    border-radius: 5px;
+}
+#filter{
+    border-color: blueviolet;
+    border-radius: 5px;
+    border-style: solid;
+}
+.socialicons{
+    margin-top: -1%;
+}
+.socialicon a {
+    margin: 5% 2%;
+    padding-top: 10%;
+    margin-right: 7%;
+}
+
+.socialicon i{
+    width: 25px;
+    height: 25px;
+    font-size: 23px;
+    color: blueviolet;
+    padding-top: 12%;
+}
+
+.sign-up-btn, .log-in-btn {
+    color: rgb(5, 5, 5);
+    border-color:blueviolet ;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 12px;
+
+   
+    
+}
+.sign-up-btn:hover, .log-in-btn:hover {
+    background-color: #f1eeee;
+}
+.sign-up-btn:hover, .log-in-btn:hover {
+    background-color: #f1eeee;}
+    @media (max-width: 567px){
+        .line{
+            opacity: 0%;
+           
+        }
+         .button{
+        margin-left: 70%;
+        margin-top: -13%;
+         } 
+         .search-bar{
+            margin-left: 7%;
+         }
+         .nav-links{
+            margin-left: -20%;
+            margin-top: 1%;
+         }
+        }
+        @media (max-width: 1000px){
+            .line{
+                opacity: 0%;
+               
+            }
+             .button{
+            margin-left: 0%;
+            margin-top: -7%;
+             } 
+             .search-bar{
+                margin-left: 7%;
+             }
+             .nav-links{
+                margin-right:-20%;
+                margin-top: 1%;
+             }
+            }
+ .img{
+ width: 80%;
+border-radius: 10px;
+margin-top: 70px;
+margin-left: 10%;
+ }
+.section{
+   padding-top: 0%;
+ }
+ .section h2{
+   
+    font-family: "Spicy Rice", serif;
+    text-align: left;
+ }
+.p{
+    margin-top:50px ;
+   padding-left: 50px;
+}
+.btn{
+    border-color:rgba(137, 43, 226, 0.89);
+    border-radius: 20px;
+    width: 200px;
+
+}
+.btn:hover{
+    border-color:rgba(137, 43, 226, 0.89);
+    border-radius: 20px;
+    width: 200px;
+    cursor: pointer;
+}
+.btn1{
+    border-color:rgba(137, 43, 226, 0.89);
+    border-radius: 20px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    margin-left: 10px;
+    background-color: white;
+    
+}
+.btn1:hover{
+    border-color:rgba(137, 43, 226, 0.89);
+    border-radius: 20px;
+    width: 200px;
+    cursor: pointer;
+    background-color: #f1eeee;
+}
+.feed h3{
+    text-align: center;
+    font-family: "Spicy Rice", serif;
+    font-size: 40px;
+}
+.test-img{
+    width: 100px;
+    border-radius: 100%;
+  
+}
+.carousel-inner{
+    text-align: center;
+    padding: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    width: 70%;
+margin: auto;
+margin-top: 20px;
+border-radius: 10px;
+}
+.register{
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    display: none ;
+    z-index: 10;
+    position: fixed ;
+   background-color: white;
+   left: 35%;
+   top: 5%;
+
+}
+@media (max-width: 600px) {
+    .register{
+    width: 80%;
+    margin-left: -23% 
+    }
+}
+
+.input_box input{
+    margin: 10px;
+    width: auto;
+}
+.input_box h2{
+    text-align: center;
+}
+.select{
+    margin-left: 5%;
+}
+#Mobile{
+    width: 140px;
+}
+.register-btn{
+    width: 298px;
+    cursor: pointer;
+    padding: 5px;
+    border-color: blueviolet;
+    background-color: white;
+}
+.register-btn:hover{
+    width: 298px;
+    border-color: darkmagenta;
+    background-color: #f1eeee;
+}
+.overlay{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 243, 243, 0.836);
+    backdrop-filter: blur(3px);
+    z-index: 5;  
+    display: none; 
+    border-radius: 5%; 
+    }
+ .close-register {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+}
+      
+.close-register:hover , 
+.close-register:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+}
+.feedback{
+    width: 400px;
+    height: 500px;
+    margin: auto;
+   margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    display: none ;
+    z-index: 10;
+    position: fixed ;
+   background-color: white;
+   left: 35%;
+   top: 5%;
+
+}
+@media (max-width: 600px) {
+    .feedback{
+    width: 80%;
+    margin-left: -23% 
+    }
+}
+.input_box h3{
+    text-align: center;
+}
+.input_box input{
+    margin: 10px;
+    width: auto;
+}
+.input_box p{
+    font-size: 13px;
+    text-align: center;
+}
+.select{
+    margin-left: 5%;
+}
+#Mobile{
+    width: 140px;
+}
+.feedback-btn{
+    width: 180px;
+    cursor: pointer;
+    padding: 5px;
+    border-color: blueviolet;
+    background-color: white;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+.input_box h3{
+    font-family: "Spicy Rice", serif;
+}
+.feedback-btn:hover{
+    background-color: #f1eeee;
+    border-color: darkmagenta;
+}
+.close-feedback:hover , 
+.close-feedback:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .close-feedback
+    { color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;}
+    .sign-up-btn:hover, .log-in-btn:hover {
+        background-color: #f1eeee;
+    }
+    .sign-up-btn:hover, .log-in-btn:hover {
+        background-color: #f1eeee;
+    }
+    .signup{
+        width: 400px;
+        height: 500px;
+       margin-top: 10px;
+        box-shadow: 0 4px 8px 0 blueviolet;
+        padding: 30px;
+        justify-content: center;
+        align-items: center;
+        display: none;
+        z-index: 10;
+        position: absolute;
+       background-color: white;
+       left: 35%;   
+    }
+    @media (max-width: 767px) {
+       .signup{
+        width: 80%;
+        margin-left: -23% ;
+       }
+    }
+    .overlay{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 243, 243, 0.836);
+    backdrop-filter: blur(3px);
+    z-index: 5;  
+    display: none; 
+    border-radius: 5%; 
+    }
+    .login{
+        width: 400px;
+        height: 350px;
+       margin-top: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+        padding: 30px;
+        justify-content: center;
+        align-items: center;
+        display: none;
+        z-index: 10;
+        position: absolute;
+       background-color: white;
+       left: 35%   
+    
+    }
+    @media (max-width: 767px) {
+        .login{
+         width: 80%;
+         margin-left: -23% ;
+        }
+    }
+    h2{
+        text-align: center;
+        font-family: "Spicy Rice", serif
+    }
+    .input_box input{
+        margin: 10px;
+        width: 295px;
+    }
+    .select{
+        margin-left: 5%;
+    }
+    #Mobile{
+        width: 140px;
+    }
+    .btn{
+        width: 298px;
+        cursor: pointer;
+        padding: 5px;
+        border-color: blueviolet;
+    }
+    .btn:hover{
+        width: 298px;
+        border-color: darkmagenta;
+        background-color: #f1eeee;
+    }
+    /* The Close Button */
+    .close-sign , .close-log {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      
+      .close-sign:hover , .close-log:hover,
+      .close-sign:focus , .close-log:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+.evento {
+   
+
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    padding: 20px;
+  
+    /* margin: 30px; */
+    
+
+}
+.e-img{
+    width: 40px;
+    border-radius: 100%;
+}
+/* .even{
+    float: right;
+} */
+.link{
+    width: 40px;
+    background-color: darkmagenta;
+}
+.link1{
+    width: 40px;
+    background-color:rgba(137, 43, 226, 0.89);
+    margin: 5px;
+}
+.even{
+    float: right;
+  
+
+    
+}
+.even1 h2{
+    color: rgba(137, 43, 226, 0.89);
+
+    padding: 10px;
+}
+footer{
+    margin-top:5%;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    padding: 20px;
+  
+    margin: 30px;
+    
+
+}
+.footer-h3{
+    color: blueviolet;
+    font-size: 30px;
+    padding-top: 5%;
+    padding-left: 10%;
+    font-family: "Spicy Rice", serif;
+}
+.footer-p{
+    text-align: justify;
+    font-size: 15px;
+    padding-left: 10%;
+    color: black;
+    opacity: 70%;
+}
+.copy-right{
+text-align: justify;
+opacity: 50%;
+font-size: 15px;
+padding-left: 10%;
+padding-right: 5%;
+}
+#footer-social li{
+    list-style: none;
+    margin-top: 8%;
+}
+.fa{
+    color: blueviolet;
+}
+.fa-brands{
+    color:blueviolet;
+    font-size: 20px;
+    padding: 2%;
+    transition: all 0.5s;
+    margin-bottom: 2%;
+    margin-top: -10%;
+}
+.fa-brands:hover{
+    color:  rgba(255, 255, 255, 0.651);
+    transform: scale(1.1);
+}
+.socialicon{
+    margin-left: 8%;}
